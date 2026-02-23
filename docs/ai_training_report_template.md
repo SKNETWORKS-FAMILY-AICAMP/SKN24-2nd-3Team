@@ -1,7 +1,7 @@
 # 인공지능 학습 결과서
 
-> **작성 가이드**: 본 양식을 복사하여 `docs/report_{initials}_{model_name}.md` 로 저장 후 작성하세요.
-> 예: `docs/report_ljh_xgboost.md`
+> **작성 가이드**: 본 양식을 복사하여 `models/{model_name}/report_{initials}_{model_name}.md` 로 저장 후 작성하세요.
+> 예: `models/xgb_churn_v1/report_ljh_xgboost.md`
 
 ---
 
@@ -12,7 +12,7 @@
 | 작성자      | (이름/GitHub ID)                                  |
 | 작성일      | YYYY-MM-DD                                        |
 | 모델명      | (예: XGBoost, Random Forest, Logistic Regression) |
-| 담당 노트북 | `notebooks/{initial}/03_modeling.ipynb`           |
+| 담당 노트북 | `notebooks/{initials}/03_modeling.ipynb`          |
 
 ---
 
@@ -253,7 +253,7 @@ mm.save(model, '{initials}_{model_name}_v1', metadata={
 })
 ```
 
-저장 경로: `models/{initials}_{model_name}_v1.joblib`
+저장 경로: `models/{initials}_{model_name}_v1/`
 
 ---
 

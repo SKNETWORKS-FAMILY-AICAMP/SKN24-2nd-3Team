@@ -55,8 +55,8 @@ manager.save(
 
 **생성 파일**:
 
-- `models/rf_churn_v1.joblib` — 직렬화된 모델
-- `models/rf_churn_v1_meta.json` — 메타데이터 (아래 구조 참고)
+- `models/rf_churn_v1/rf_churn_v1.joblib` — 직렬화된 모델
+- `models/rf_churn_v1/rf_churn_v1_meta.json` — 메타데이터 (아래 구조 참고)
 
 ```json
 {
@@ -133,12 +133,18 @@ manager.delete('rf_churn_v1')
 
 ```
 models/
-├── rf_churn_v1.joblib          # 모델 바이너리
-├── rf_churn_v1_meta.json       # 메타데이터
-├── lr_churn_v1.joblib
-├── lr_churn_v1_meta.json
-├── gb_churn_v1.joblib
-└── gb_churn_v1_meta.json
+├── rf_churn_v1/
+│   ├── rf_churn_v1.joblib          # 모델 바이너리
+│   ├── rf_churn_v1_meta.json       # 메타데이터
+│   └── report_ljh_rf.md            # 학습 결과서 (선택)
+├── lr_churn_v1/
+│   ├── lr_churn_v1.joblib
+│   ├── lr_churn_v1_meta.json
+│   └── report_ljh_lr.md
+└── gb_churn_v1/
+    ├── gb_churn_v1.joblib
+    ├── gb_churn_v1_meta.json
+    └── report_ljh_gb.md
 ```
 
 ---
