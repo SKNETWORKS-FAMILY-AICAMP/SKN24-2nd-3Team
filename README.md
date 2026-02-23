@@ -34,9 +34,8 @@
 
 **“인터넷 베팅 플랫폼 고객 이탈 예측 머신러닝 프로젝트”**
 
-src="https://github.com/user-attachments/assets/87e04c3a-49ea-4a10-959f-4a4485039585"
-
-src="https://github.com/user-attachments/assets/45d77237-d7c0-40ed-adc4-0394ce61b12d"
+<img width="1050" alt="image" src="https://github.com/user-attachments/assets/87e04c3a-49ea-4a10-959f-4a4485039585" />
+<img width="1050" alt="image" src="https://github.com/user-attachments/assets/45d77237-d7c0-40ed-adc4-0394ce61b12d" />
 
 **<글로벌 스포츠 베팅 시장 규모, 점유율 및 트렌드 분석 보고서 – 산업 개요 및 2033년까지의 전망>**
 
