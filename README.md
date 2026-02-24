@@ -558,6 +558,11 @@ best_params = {
     * 베팅 유형별 분석 결과, Fixed Only 유형(이탈률 43.0%)보다 Fixed와 Live를 병행하는 **Mixed 유형의 이탈률(19.5%)이 2.2배 이상 낮게** 나타났습니다.
     * 이는 다양한 서비스를 복합적으로 이용하는 유저일수록 이탈 가능성이 현저히 낮아짐을 의미합니다.
 
+ ## 시연 화면
+<img width="3420" height="2214" alt="image" src="https://github.com/user-attachments/assets/52e59e1b-6657-4b57-9652-2576de8a8b31" />
+
+
+
 ---
 # 한줄회고
 
