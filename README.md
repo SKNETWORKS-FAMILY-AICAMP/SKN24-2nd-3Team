@@ -133,7 +133,7 @@
 
 # 4. WBS 및 폴더 구조
 
-<img width="1130" height="748" alt="image" src="https://github.com/user-attachments/assets/d9b6005e-43eb-48f5-b0ef-71f88d9fddd0" />
+<img width="1130" height="748" alt="image" src="assets/WBS.png" />
 
 
 
