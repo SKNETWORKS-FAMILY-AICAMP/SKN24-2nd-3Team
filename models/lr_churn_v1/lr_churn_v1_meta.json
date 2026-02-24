@@ -1,0 +1,43 @@
+{
+    "accuracy": 0.8055675442382391,
+    "precision": 0.653742802303263,
+    "recall": 0.6542451018056089,
+    "f1_score": 0.6539938556067588,
+    "roc_auc": 0.8638425165261734,
+    "best_params": {
+        "C": 100,
+        "max_iter": 1000,
+        "solver": "lbfgs"
+    },
+    "best_cv_auc": 0.6564201738341422,
+    "best_threshold": 0.5,
+    "features": [
+        "gender",
+        "age_group",
+        "fixed_bet_amount",
+        "live_bet_amount",
+        "total_bet_amount",
+        "fixed_win_amount",
+        "live_win_amount",
+        "total_win_amount",
+        "fixed_bet_cnt",
+        "live_bet_cnt",
+        "total_bet_cnt",
+        "fixed_active_days",
+        "live_active_days",
+        "total_active_days",
+        "fixed_hit_days",
+        "live_hit_days",
+        "total_hit_days",
+        "fixed_win_rate",
+        "live_win_rate",
+        "total_win_rate",
+        "fixed_avg_roi",
+        "live_avg_roi",
+        "total_avg_roi"
+    ],
+    "n_features": 23,
+    "train_size": 37069,
+    "test_size": 9268,
+    "scale_pos_weight": 1.0
+}
