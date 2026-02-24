@@ -201,15 +201,52 @@
 - 설명: 13개월 연속으로 베팅을 하지 않으면 '비활성'으로 분류
 
 ---
-
 # 6. 데이터 전처리 및 통합
 
-## 원본 데이터
+## 원본 데이터 명세
+
+### (1) `sports_gb_F.csv`
+
+| Feature 명  | 설명                                                                         |
+| :---------- | :--------------------------------------------------------------------------- |
+| **UserID**  | [cite_start]등록 시 bwin이 부여한 숫자형 ID [cite: 1]                        |
+| **DateBet** | [cite_start]베팅 활동 날짜 (YYYY-MM-DD) [cite: 1]                            |
+| **StakeF**  | [cite_start]고정 배당률 스포츠 베팅에 사용된 총 금액 (유로) [cite: 1]        |
+| **WinF**    | [cite_start]고정 배당률 스포츠 베팅을 통해 획득한 총 당첨금 (유로) [cite: 1] |
+| **BetsF**   | [cite_start]해당 일자에 배치된 고정 배당률 스포츠 베팅 횟수 [cite: 1]        |
+
+### (2) `sports_gb_L.csv`
+
+| Feature 명  | 설명                                                                         |
+| :---------- | :--------------------------------------------------------------------------- |
+| **UserID**  | [cite_start]등록 시 bwin이 부여한 숫자형 ID [cite: 1]                        |
+| **DateBet** | [cite_start]베팅 활동 날짜 (YYYY-MM-DD) [cite: 1]                            |
+| **StakeL**  | [cite_start]라이브 액션 스포츠 베팅에 사용된 총 금액 (유로) [cite: 1]        |
+| **WinL**    | [cite_start]라이브 액션 스포츠 베팅을 통해 획득한 총 당첨금 (유로) [cite: 1] |
+| **BetsL**   | [cite_start]해당 일자에 배치된 라이브 액션 스포츠 베팅 횟수 [cite: 1]        |
+
+### (3) `sports_gb_total.csv`
+
+| Feature 명     | 설명                                                                  |
+| :------------- | :-------------------------------------------------------------------- |
+| **UserID**     | [cite_start]등록 시 bwin이 부여한 숫자형 ID [cite: 1]                 |
+| **CountryID**  | [cite_start]이용자 거주 국가 코드 (대부분 ISO 3166-1 기준) [cite: 1]  |
+| **Gender**     | [cite_start]성별 (0: 여성, 1: 남성) [cite: 1]                         |
+| **BirthYear**  | [cite_start]구독자 출생 연도 (1900 ~ 1991) [cite: 1]                  |
+| **DateReg**    | [cite_start]구독자 서비스 등록 날짜 [cite: 1]                         |
+| **TimeReg**    | [cite_start]구독자 서비스 등록 시간 (hh:mm) [cite: 1]                 |
+| **Date1Dep**   | [cite_start]계좌에 처음 자금을 예치한 날짜 [cite: 1]                  |
+| **Date1Bet**   | [cite_start]종목에 상관없이 첫 베팅을 시도한 날짜 [cite: 1]           |
+| **Date1Spo**   | [cite_start]고정 혹은 라이브 스포츠 베팅을 처음 시도한 날짜 [cite: 1] |
+| **StakeF/L/A** | [cite_start]고정(F), 라이브(L), 전체 합계(A) 베팅 금액 [cite: 1]      |
+| **WinF/L/A**   | [cite_start]고정(F), 라이브(L), 전체 합계(A) 당첨 금액 [cite: 1]      |
+| **BetsF/L/A**  | [cite_start]고정(F), 라이브(L), 전체 합계(A) 베팅 횟수 [cite: 1]      |
+| **DaysF/L/A**  | [cite_start]고정(F), 라이브(L), 전체 합계(A) 베팅 발생 일수 [cite: 1] |
+
+## 통합 데이터 명세
 
 <img width="1356" height="307" alt="image" src="https://github.com/user-attachments/assets/99c25b6f-36b2-465c-b45c-e7d2291f8b25" />
 
-
-## 원본 데이터 컬럼
 ```
 # 0. UserID : 각 유저별 고유 인덱스. 식별자 컬럼이므로 모델링 시 제외 검토
 # 1. CountryID : 국가 코드. 범주형 변수로 사용
@@ -233,6 +270,7 @@
 # 19. DaysL : 경기 중(L) 활동일수. count형
 # 20. DaysA : 전체(A) 활동일수. count형
 ```
+
 ## 6-1. age_group 그룹화
 기준년도: 2006년
 10대:0 / 20대:1 / 30대:2 / 40대:3 / 50대:4 / 60대:5 / 70대:6 / 80대:7 / 90대이상:8
