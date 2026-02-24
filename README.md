@@ -19,12 +19,12 @@
 
 ## 1-2. 팀원 구성 및 GitHub
 
-| 사진 | 이름 | 역할 | GitHub |
-| --- | --- | --- | --- |
-| <img src="이미지주소1" width="80"> | 박수영 | 데이터 전처리 / EDA | [suyoung6279](https://github.com/suyoung6279) |
-| <img src="이미지주소2" width="80"> | 박영훈 | 모델링 / 평가 | [aprkaos56](https://github.com/aprkaos56) |
-| <img src="이미지주소3" width="80"> | 임정희 | 데이터 수집 | [bigmooon](https://github.com/bigmooon) |
-| <img src="이미지주소4" width="80"> | 최하진 | 시각화 / 문서화 | [hun6684](https://github.com/hun6684) |
+| 사진 | 이름 | GitHub |
+| --- | --- | --- |
+| <img src="이미지주소1" width="80"> | 박수영 | [suyoung6279](https://github.com/suyoung6279) |
+| <img src="이미지주소2" width="80"> | 박영훈 | [aprkaos56](https://github.com/aprkaos56) |
+| <img src="이미지주소3" width="80"> | 임정희 | [bigmooon](https://github.com/bigmooon) |
+| <img src="이미지주소4" width="80"> | 최하진 | [hun6684](https://github.com/hun6684) |
 
 ---
 
@@ -125,7 +125,7 @@
 
 | Language | Python |
 | --- | --- |
-| Data Processing | pandas, numpy, scikit-learn |
+| Data Processing | pandas, numpy |
 | Data Visualization | matplotlib, seaborn |
 | Machine Learning | scikit-learn |
 
