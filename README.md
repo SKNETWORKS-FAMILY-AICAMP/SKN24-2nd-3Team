@@ -21,10 +21,10 @@
 
 | 사진 | 이름 | GitHub |
 | --- | --- | --- |
-| <img src="이미지주소1" width="80"> | 박수영 | [suyoung6279](https://github.com/suyoung6279) |
-| <img src="이미지주소2" width="80"> | 박영훈 | [aprkaos56](https://github.com/aprkaos56) |
-| <img src="이미지주소3" width="80"> | 임정희 | [bigmooon](https://github.com/bigmooon) |
-| <img src="이미지주소4" width="80"> | 최하진 | [hun6684](https://github.com/hun6684) |
+| <img src="assets/골드베어.png" width="80"> | 박수영 | [suyoung6279](https://github.com/suyoung6279) |
+| <img src="assets/연두베오.png" width="80"> | 박영훈 | [aprkaos56](https://github.com/aprkaos56) |
+| <img src="assets/보라베어.png" width="80"> | 임정희 | [bigmooon](https://github.com/bigmooon) |
+| <img src="assets/아이보리베어.png" width="80"> | 최하진 | [hun6684](https://github.com/hun6684) |
 
 ---
 
