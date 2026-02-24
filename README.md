@@ -397,7 +397,7 @@
       </ul>
     </li>
     
-    <br />
+    <br/>
     <li>
       <strong>서비스 다양성과 고객 고착도(Stickiness)</strong>
       <ul>
